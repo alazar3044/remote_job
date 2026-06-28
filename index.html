@@ -185,20 +185,26 @@ padding:70px 20px;
 text-align:center;
 }
 
-.cta button{
+.cta-btn{
+display:inline-block;
 background:#000;
 color:#fff;
 padding:22px 60px;
 font-size:24px;
-border:none;
+font-weight:600;
+text-decoration:none;
 border-radius:10px;
-cursor:pointer;
 transition:.3s;
 }
 
-.cta button:hover{
+.cta-btn:hover{
 background:#222;
+color:#fff;
 transform:translateY(-3px);
+}
+
+.cta-btn:visited{
+color:#fff;
 }
 
 .countries{
@@ -401,8 +407,11 @@ Open to adults looking for remote work opportunities.
 <section class="cta">
 
 <button> 
-<a href="https://giftclick.org/aff_c?offer_id=1925&aff_id=156288" class="cta-btn">
-    GET YOUR REMOTE JOB →
+<a href="https://giftclick.org/aff_c?offer_id=1925&aff_id=156288"
+   class="cta-btn"
+   target="_blank"
+   rel="noopener noreferrer">
+   GET YOUR REMOTE JOB →
 </a>
 </button>
 
